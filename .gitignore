@@ -1,0 +1,7 @@
+Inv.API/bin/*
+Inv.API/obj/*
+Inv.Models/obj/*
+Inv.Models/bin/*
+Inv.Services/bin/*
+Inv.Services/obj/*
+./vs/

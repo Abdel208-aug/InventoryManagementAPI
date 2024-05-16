@@ -1,4 +1,5 @@
 using Inv.Models.ModelsDB;
+using Inv.Services.ProductsService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<InvContextDB>(
     option=> option.UseSqlServer(builder.Configuration.GetConnectionString("InvDbCon"))
     );
+
+builder.Services.AddScoped<ProductsProvider>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

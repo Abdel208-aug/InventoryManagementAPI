@@ -10,9 +10,12 @@ namespace Inv.Models.ModelsDB
     public class Supliers
     {
         [Key]
-        public int CategoryId { get; set; }
+        public int SupplierId { get; set; }
         public string Name { get; set; }
-        public string? Description { get; set; }
+        public string? ContactName { get; set; }
+        public string? Address { get; set; }
+        public string? Phone { get; set; }
+        public string? Email { get; set; }
 
         public List<Products> Products { get; set; }
     }
