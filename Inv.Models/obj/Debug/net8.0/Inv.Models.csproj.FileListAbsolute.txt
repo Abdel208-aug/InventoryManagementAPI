@@ -1,0 +1,14 @@
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\bin\Debug\net8.0\Inv.Models.deps.json
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\bin\Debug\net8.0\Inv.Models.runtimeconfig.json
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\bin\Debug\net8.0\Inv.Models.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\bin\Debug\net8.0\Inv.Models.pdb
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.csproj.AssemblyReference.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.AssemblyInfoInputs.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.AssemblyInfo.cs
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.csproj.CoreCompileInputs.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\refint\Inv.Models.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.pdb
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\Inv.Models.genruntimeconfig.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Models\obj\Debug\net8.0\ref\Inv.Models.dll

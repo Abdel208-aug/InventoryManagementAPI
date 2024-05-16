@@ -1,0 +1,15 @@
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\bin\Debug\net8.0\Inv.Services.deps.json
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\bin\Debug\net8.0\Inv.Services.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\bin\Debug\net8.0\Inv.Services.pdb
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\bin\Debug\net8.0\Inv.Models.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\bin\Debug\net8.0\Inv.Models.pdb
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.csproj.AssemblyReference.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.AssemblyInfoInputs.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.AssemblyInfo.cs
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.csproj.CoreCompileInputs.cache
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Serv.96E09532.Up2Date
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\refint\Inv.Services.dll
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\Inv.Services.pdb
+C:\Users\Enjoy\Documents\Tests.NET\WebAppASP\testAppSolution\Inv.Services\obj\Debug\net8.0\ref\Inv.Services.dll
