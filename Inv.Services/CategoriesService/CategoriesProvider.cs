@@ -5,42 +5,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inv.Services.ProductsService
+namespace Inv.Services.CategoriesService
 {
-    public class ProductsProvider
+    public class CategoriesProvider
     {
         private InvContextDB _db;
 
-        public ProductsProvider(InvContextDB db)
+        
+        public CategoriesProvider(InvContextDB db)
         {
             _db = db;
         }
 
-        public IEnumerable<Products> GetProducts()
+        public IEnumerable<Categories> GetCategories()
         {
-            return _db.Products;
+            return _db.Categories;
         }
-        public string AddProduct (Products product)
+        public string AddCategory(Categories category)
         {
             try
             {
-                _db.Products.Add(product);
+                _db.Categories.Add(category);
                 _db.SaveChanges();
                 return "Added successfully";
             }
             catch (Exception ex)
             {
                 return ex.Message;
-                
+
             }
         }
-        public string EditProduct(Products product)
+        public string EditCategory(Categories category)
         {
             try
             {
-                _db.Products.Update(product);
+                _db.Categories.Update(category);
                 _db.SaveChanges();
-                return "Product Updated successfully";
+                return "category Updated successfully";
             }
             catch (Exception ex)
             {
@@ -48,13 +49,13 @@ namespace Inv.Services.ProductsService
 
             }
         }
-        public string DeleteProduct(Products product)
+        public string DeleteCategory(Categories category)
         {
             try
             {
-                _db.Products.Remove(product);
+                _db.Categories.Remove(category);
                 _db.SaveChanges();
-                return "Product Removed successfully";
+                return "category Removed successfully";
             }
             catch (Exception ex)
             {

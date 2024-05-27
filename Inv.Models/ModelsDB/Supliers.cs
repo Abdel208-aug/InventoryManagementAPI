@@ -17,6 +17,6 @@ namespace Inv.Models.ModelsDB
         public string? Phone { get; set; }
         public string? Email { get; set; }
 
-        public List<Products> Products { get; set; }
+        public virtual List<Products?>? Products { get; set; }
     }
 }

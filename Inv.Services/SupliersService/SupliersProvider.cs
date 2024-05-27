@@ -5,42 +5,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inv.Services.ProductsService
+namespace Inv.Services.SupliersService
 {
-    public class ProductsProvider
+    public class SupliersProvider
     {
         private InvContextDB _db;
 
-        public ProductsProvider(InvContextDB db)
+        public SupliersProvider(InvContextDB db)
         {
             _db = db;
         }
 
-        public IEnumerable<Products> GetProducts()
+        public IEnumerable<Supliers> GetSupliers()
         {
-            return _db.Products;
+            return _db.Supliers;
         }
-        public string AddProduct (Products product)
+        public string AddSuplier(Supliers suplier)
         {
+
             try
             {
-                _db.Products.Add(product);
+                _db.Supliers.Add(suplier);
                 _db.SaveChanges();
                 return "Added successfully";
             }
             catch (Exception ex)
             {
                 return ex.Message;
-                
+
             }
         }
-        public string EditProduct(Products product)
+        public string EditSuplier(Supliers suplier)
         {
             try
             {
-                _db.Products.Update(product);
+                _db.Supliers.Update(suplier);
                 _db.SaveChanges();
-                return "Product Updated successfully";
+                return "suplier Updated successfully";
             }
             catch (Exception ex)
             {
@@ -48,13 +49,13 @@ namespace Inv.Services.ProductsService
 
             }
         }
-        public string DeleteProduct(Products product)
+        public string DeleteSuplier(Supliers suplier)
         {
             try
             {
-                _db.Products.Remove(product);
+                _db.Supliers.Remove(suplier);
                 _db.SaveChanges();
-                return "Product Removed successfully";
+                return "suplier Removed successfully";
             }
             catch (Exception ex)
             {

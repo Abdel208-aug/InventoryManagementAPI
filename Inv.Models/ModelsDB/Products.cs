@@ -19,7 +19,7 @@ namespace Inv.Models.ModelsDB
         public int CategorieId { get; set; }
         public int SuplierId { get; set; }
 
-        public Categories Categorie { get; set; }
-        public Supliers Suplier { get; set; }
+        public Categories? Categorie { get; set; }
+        public Supliers? Suplier { get; set; }
     }
 }

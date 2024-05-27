@@ -1,5 +1,7 @@
 using Inv.Models.ModelsDB;
 using Inv.Services.ProductsService;
+using Inv.Services.CategoriesService;
+using Inv.Services.SupliersService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,8 @@ builder.Services.AddDbContext<InvContextDB>(
     );
 
 builder.Services.AddScoped<ProductsProvider>();
+builder.Services.AddScoped<CategoriesProvider>();
+builder.Services.AddScoped<SupliersProvider>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

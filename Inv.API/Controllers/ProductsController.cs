@@ -21,5 +21,21 @@ namespace Inv.API.Controllers
         {
             return _productsProvider.GetProducts().ToList();
         }
+        [HttpPost]
+        public ActionResult<string> Add(Products product)
+        {
+            return _productsProvider.AddProduct(product);
+        }
+        [HttpPut]
+        public ActionResult<string> Edit(Products product)
+        {
+            return _productsProvider.EditProduct(product);
+        }
+        [HttpDelete]
+        public ActionResult<string> Delete(Products product)
+        {
+            return _productsProvider.DeleteProduct(product);
+        }
+
     }
 }
